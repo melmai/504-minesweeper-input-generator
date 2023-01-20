@@ -41,6 +41,9 @@ class InputGenerator:
             # process new row/col values
             dimensions = input_file.readline().strip()
 
+        # add exit condition
+        output_file.write("0 0")
+
         # close i/o files
         input_file.close()
         output_file.close()
