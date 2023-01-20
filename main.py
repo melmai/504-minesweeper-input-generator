@@ -37,7 +37,6 @@ class InputGenerator:
                 for m in range(cols):
                     output_file.write(self.generate_mine(int(chance_of_mines)))
                 output_file.write("\n")
-            output_file.write("\n")
 
             # process new row/col values
             dimensions = input_file.readline().strip()
